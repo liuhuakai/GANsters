@@ -74,9 +74,9 @@ def main():
 
     # Which networks to evaluate them on?
     tasks = []
-    tasks += [EasyDict(run_func_name='run_metrics.run_pickle', network_pkl='https://drive.google.com/uc?id=1MEGjdvVpUsu1jB4zrXZN7Y4kBBOzizDQ', dataset_args=EasyDict(tfrecord_dir='ffhq', shuffle_mb=0), mirror_augment=True)] # karras2019stylegan-ffhq-1024x1024.pkl
-    #tasks += [EasyDict(run_func_name='run_metrics.run_snapshot', run_id=100, snapshot=25000)]
-    #tasks += [EasyDict(run_func_name='run_metrics.run_all_snapshots', run_id=100)]
+    #tasks += [EasyDict(run_func_name='run_metrics.run_pickle', network_pkl='https://drive.google.com/uc?id=1MEGjdvVpUsu1jB4zrXZN7Y4kBBOzizDQ', dataset_args=EasyDict(tfrecord_dir='ffhq', shuffle_mb=0), mirror_augment=True)] # karras2019stylegan-ffhq-1024x1024.pkl
+    #tasks += [EasyDict(run_func_name='run_metrics.run_snapshot', run_id=0, snapshot=9726)]
+    tasks += [EasyDict(run_func_name='run_metrics.run_all_snapshots', run_id=0)]
 
     # How many GPUs to use?
     submit_config.num_gpus = 1

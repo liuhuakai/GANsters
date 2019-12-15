@@ -10,9 +10,9 @@
 #----------------------------------------------------------------------------
 # Paths.
 
-result_dir = 'results'
-data_dir = 'datasets'
-cache_dir = 'cache'
-run_dir_ignore = ['results', 'datasets', 'cache']
+result_dir = '/media/data_cifs/xfu5/results'
+data_dir = '/media/data_cifs/xfu5/datasets'
+cache_dir = '/media/data_cifs/xfu5/cache'
+run_dir_ignore = ['/media/data_cifs/xfu5/results', '/media/data_cifs/xfu5/datasets', '/media/data_cifs/xfu5/cache']
 
 #----------------------------------------------------------------------------
