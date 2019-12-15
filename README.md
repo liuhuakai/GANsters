@@ -1,5 +1,7 @@
 ## Using Generative Adversarial Networks (GANs) to Synthesize Images Depicting Traditional Mexican Crafts
 
+Final model snapshot pickle file is store in the google drive (https://drive.google.com/drive/folders/1BFsXMFJwrPmru0ctgIkG0VoYPFddMTTH?usp=sharing).
+
 Generative Adversarial Network (GAN) is about creating. It would be much easier to identify a masterpiece than to create one, and GAN brings us the possibility. Our final project is a collaborative project with Professor Thomas Serre and RISD. In this project, we integrate deep learning in the process of art creation. The idea of our project is to use Generative Adversarial Networks (GANs) to synthesize images depicting traditional crafts (e.g. Mexican pottery), and then to give these to actual craftspeople to produce (in a 'dialog' between machine and artisans). 
 
 ### Data
